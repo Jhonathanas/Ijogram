@@ -92,7 +92,7 @@ const page = async ({ params }: { params: { username: string } }) => {
         </div>
       </div>
       <div className="hidden lg:block w-[30%]">
-        <RightMenu username={user.username} />
+        <RightMenu user={user} />
       </div>
     </div>
   );

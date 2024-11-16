@@ -6,9 +6,8 @@ import FriendRequests from "./FriendReq";
 import UserInfo from "./UserInfo";
 import UserMedia from "./UserMedia";
 
-const RightMenu = (
-  { user }: { user?: User }
-  ) => {
+const RightMenu = ({ user }: { user?: User }) => {
+  console.log(user);
   return (
     <div className="flex flex-col gap-6">
       {user ? (
